@@ -1,0 +1,51 @@
+body{
+	color: white;
+	text-align: center;
+	font-family: orbitron;
+	letter-spacing: 5px;
+	background-image: url("https://media.giphy.com/media/xvRPIAtMwKQ2SlxKtx/giphy-downsized-large.gif");
+	background-size: cover;
+	font-size: 25px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	letter-spacing: 5px;
+}
+.btn{
+		font-size: 20px;
+		font-weight: bold;
+		padding: 6px 12px;
+		background: white;
+		border: none;
+		margin-top: 450px;
+		
+		
+}
+.btn2{
+		font-size: 20px;
+		font-weight: bold;
+		padding: 6px 12px;
+		background: white;
+		border: none;
+		margin-top: 450px;
+		
+		
+}
+button:hover{
+		cursor: grab;
+		box-shadow: 5px 5px 10px purple;
+		transform: rotateY(360deg);
+		transition-duration: .5s;
+		transition-timing-function: ease-out;
+}
+h1:hover{
+		cursor: none;
+		transform: rotateY(-720deg);
+		transition-duration: 3s;
+		transition-timing-function: ease-in;
+		transition-delay: .2s;
+		box-shadow: 0px 0px 30px purple;
+}
+
+h3{
+	cursor: none;
+}

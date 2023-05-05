@@ -1,0 +1,124 @@
+
+.navbar{
+	display: flex;
+	font-family: "Gill Sans Extrabold", sans-serif;
+}
+.logo{
+	margin-left: 130px;
+	width: 22px;
+	
+}
+.profile-logo{
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	margin-right: 10px;
+}
+.logo-text{
+	
+	font-size: 22px;
+	color: white;
+}
+.nav-chat {
+	margin-left: 70px;
+	opacity: 0.7;
+}
+.nav-images{
+	margin-left: 30px;
+	opacity: 0.7;
+}
+.nav-videos{
+	margin-left: 20px;
+	opacity: 0.7;
+}
+.nav-maps{
+	margin-left: 20px;
+	opacity: 0.7;
+}
+.nav-signin{
+	margin-right: 5px;
+}
+.nav-rewards{
+	margin-left: 10px;
+}
+.reward-logo{
+	margin-left: 10px;
+	height: 30px;
+	width: 30px;
+	opacity: 0.5;
+	border-radius: 60px;
+	
+}
+.threedots{
+	width: 20px;
+	margin-left: 10px;
+}
+.left{
+	color: white;
+	font-size: small;
+	
+}
+.right{
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 13px;
+	margin-left: 390px;
+}
+#searchbar{
+	display: inline-block;
+	margin: 80px 0px 0px 370px;
+	width:520px;
+	height: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 37px;
+	padding-right: 37px;
+	border: 1px solid silver;
+	border-radius: 30px;
+	border-color: white;
+	box-shadow: 0px 1px 3px #222222 ;
+	font-size: 15px;
+	position: fixed;
+}
+.scroll-links{
+	display: block;
+	margin: 190px auto auto auto;
+	width: 400px;
+	height: 100px;
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(30px);
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	border: none;
+	border-radius: 9px;
+	box-shadow: 1px 1px 9px #222222 ;
+	padding: 33px 11px 55px 88px;
+}
+	h1{
+		color: #006cd9;
+		font: 27px arial, sans-serif;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	p{
+		color: black;
+		font: 15px arial, sans-serif;
+		padding: 0px;
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+body{
+	background-image: url("https://www.bing.com/th?id=OHR.TheHawaMahal_EN-IN8397343140_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50");
+	background-image: url("https://www.bing.com/th?id=OHR.QuebecCityBridge_EN-IN8012696513_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50");
+	background-image: url("https://www.bing.com/th?id=OHR.KlostersSerneus_EN-…709_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50");
+	background-image: url("https://www.bing.com/th?id=OHR.ThreeWildebeest_EN-IN5007825213_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+span:hover{
+	cursor: pointer;
+}
