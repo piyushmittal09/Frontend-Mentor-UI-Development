@@ -1,0 +1,44 @@
+.subscribe{
+    background-color: red;
+    color:white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+}
+.tweet{
+    background-color: rgb(7, 127, 240);
+    color:white;
+    border: none;
+    border-radius: 43px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    width: 74px;
+}
+.join{
+    background-color: white;
+    color: rgb(0, 100, 158);
+    border: 1px solid rgb(0, 100, 158);
+    border-radius: 1px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    height: 40px;
+    width: 74px;
+}
+.tweet:hover{
+    box-shadow: 1px 1px 3px  black;
+}
+.subscribe:hover{
+    opacity:0.5;
+}
+.join:hover{
+    background-color: rgb(7, 127, 240);
+    color: white;
+}
