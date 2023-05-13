@@ -1,0 +1,62 @@
+body{
+	font-family: 'Lobster Two', cursive;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: auto;
+	background-color: #dfbfff;
+	margin: 0px;
+	padding: 0px;
+}
+h1 ,h3{
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+	text-shadow: 0px 0px 10px black;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+.gift{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRln1qsekN36zJLr_NEZspQINQVsYW8V9v0YQ&usqp=CAU');
+	background-size: cover;
+	width: 270px;
+	height: 160px;
+	border: 3px solid blue;
+	box-shadow: 0px 0px 30px blue;
+	margin-top: 50px;
+}
+.gift:hover{
+	width: 450px;
+	height: 350px;
+	background-image: url('https://media.tenor.com/ZDtYHC_KNvIAAAAM/trinoc-heart.gif');
+}
+.gift2{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGfvnyEkuFekIUG9pJJGGjdBCoMOLiXFOeww&usqp=CAU');
+	background-size: auto;
+	width: 270px;
+	height: 160px;
+	border: 3px solid #ffdc73;
+	box-shadow: 0px 0px 30px #ffdc73;
+	margin-top: 30px;
+}
+.gift2:hover{
+	background-image: url('https://media.tenor.com/zqbTB_um-dkAAAAd/heart-shape-heart-sign.gif');
+	width: 450px;
+	height: 350px;
+}
+.gift3{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZzzyty1cpvlZ0BpA3zYrbSqFyFQYi9TK-eo7WfD2zbTelSHrP4uBvn97un24LyHkfH5o&usqp=CAU');
+	background-size: cover;
+	width: 270px;
+	height: 160px;
+	border: 3px solid #00a3d9;
+	box-shadow: 0px 0px 30px #00a3d9;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.gift3:hover{
+	background-image: url('https://media1.giphy.com/media/l0K4kWJir91VEoa1W/giphy.webp?cid=ecf05e47yvddlzadjc4hk27wswd7xmilv2c0okebtg3gh6ri&ep=v1_gifs_trending&rid=giphy.webp&ct=g');
+	width: 450px;
+	height: 350px;
+}
