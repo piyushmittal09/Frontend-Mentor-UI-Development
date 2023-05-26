@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<HTML>
+   <head>
+         <title>Payment Form</title>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+     
+      <h1>Payment Form</h1>
+      <p>
+      Please fill the required information
+      </p>
+      <section>
+      <h3>
+      Contact information
+      </h3>
+      <form class="contact form">
+         <p>Name - <input type="text" placeholder="enter your name" required></p>
+         <p>Select Gender</p>
+         <input type="radio" id="male" name="gender" value="male" required>
+         <label for="">male</label></br>
+         <input type="radio" id="female" name="gender" value="female" required>
+         <label for="">female</label></br>
+         <input type="radio" id="other" name="gender" value="other" required>
+         <label for="">other</label></br></br>
+         <label for="">Address - </label>
+         <input type="text" placeholder="Please enter your Address"required>
+         <p>Email - <input type="email" placeholder="enter your email here" required></p>
+         <p>Pincode - <input type="Pincode" placeholder="Pincode here" required></p></br>
+         <input type="submit">
+      </form>
+      </section>
+      <section>
+      <h3>
+         Personal information
+      </h3>
+      <form class="personal form">
+         <label for="">Choose a Card Type</label>
+         <select id="" name="card">
+            <option value="" required>Visa</option>
+            <option value="" required>Mastercard</option>
+            <option value="" required>Debit Card</option>
+            <option value="" required>Maestro</option>
+         </select>
+         <p>Card Number</p>
+         <input type="Password" placeholder="enter your card number" required>
+         <p>Expiry Date - <input type="date" value=""</p>
+         <p>Security Code - <input type="number" max="999" placeholder="last three digits"></p></br>
+         <input type="submit" value="Pay Now">
+      </form>
+      </section>
+   </body>
+</HTML>
