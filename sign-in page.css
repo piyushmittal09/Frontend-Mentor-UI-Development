@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e5eaf5;
+}
+
+.login-card:hover{
+	box-shadow: 0px 0px 10px black;
+}
+
+.login-card{
+	display: flex;
+	justify-content: center;
+	margin: 69px auto auto auto;
+	padding: 11px 11px 11px 11px;
+	width: 280px;
+	height: 480px;
+	background-color: #000a14;
+
+	border-radius: 10px;
+	
+}
+h1{
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+p{
+	color: #ddd ;
+	cursor: pointer;
+	margin: 7px;
+}
+.txt{
+	margin-left: 130px;
+	color: #eee;
+}
+.txt2{
+	text-align: center;
+}
+
+.input1{
+				
+				margin: 0;
+				width: 90%;
+				height: 20px;
+				border: 1px solid white;
+				border-radius: 3px;
+				padding: 10px 10px 10px 10px;
+				font-size: 12px;
+				background: transparent;
+				color: #ddd;
+}
+.input2{
+				
+				margin: 0;
+				width: 90%;
+				height: 20px;
+				border: 1px solid white;
+				border-radius: 3px;
+				padding: 10px 10px 10px 10px;
+				font-size: 12px;
+				background: transparent;
+				color: #ddd;
+}
+.submit{
+				margin: 15px auto auto auto;
+				width: 100%;
+				height: 40px;
+				background-color: hotpink;
+				border: none;
+				border-radius: 6px;
+				padding: 10px 10px 10px 10px;
+				font-size: 16px;
+				font-weight: bold;
+				cursor: pointer;
+				
+}
+form{
+	width: 90%;
+}
+form a{
+	color: white;
+}
+.fa-facebook{
+	background: #222;
+	color: white;
+	width: 230px;
+	padding: 10px 10px 10px 10px;
+	font-size: 30px;
+	margin: 3px auto;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.fa-google{
+	background: #222;
+	color: white;
+	width: 230px;
+	padding: 10px 10px 10px 10px;
+	font-size: 30px;
+	margin: 3px auto;
+	border-radius: 6px;
+	text-decoration: none;
+}
