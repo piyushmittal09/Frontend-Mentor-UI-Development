@@ -1,0 +1,112 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('banana-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+.view{
+	font-weight: bold;
+	margin: auto auto;
+	display: block;
+}
+h1{
+	margin-bottom: 25px;
+	font-size: 70px;
+}
+h2{
+	font-size: 60px;
+	margin-bottom: 25px;
+}
+button{
+	
+	width: 150px;
+	height: 55px;
+	margin: auto;
+}
+.btn1{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	margin: 170px 25px 0 0;
+}
+.btn2{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	margin-right: 25px;
+}
+.btn3{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	margin-right: 25px;
+}
+.btn4{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+}
+.banana1{
+	width: 80px;
+	position: relative;
+	top: 225px;
+}
+.banana2{
+	width: 80px;
+	position: relative;
+	left: 280px;
+	bottom: 40px;
+}
+.banana3{
+	width: 80px;
+	position: relative;
+	top: 350px;
+}
+.banana4{
+	width: 80px;
+	position: relative;
+	left: 110px;
+	bottom: 90px;
+}
+.banana5{
+	width: 80px;
+	position: relative;
+	top: 210px;
+}
+.banana6{
+	width: 80px;
+	position: relative;
+	bottom: 230px;
+	right: 250px;
+}
+.banana7{
+	width: 80px;
+	position: relative;
+	left: 410px;
+	bottom: 60px;
+}
+
+.bananas{
+	display: flex;
+	justify-content: space-evenly;
+	mix-blend-mode: multiply;
+}
+.bananas2{
+	display: flex;
+	justify-content: center;
+	mix-blend-mode: multiply;
+}
+.message-el{
+	color: red;
+	font-weight: bold;
+	font-size: 50px;
+}
