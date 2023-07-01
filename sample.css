@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f4f4f4;
+}
+.container{
+	display: inline-block;
+	width: 70vw;
+	height: 80vh;
+	margin: auto;
+	background-color: black;
+}
+section{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.txt{
+	color: royalblue;
+	font-size: 40px;
+	font-family: Arial, sans-serf;
+	font-weight: bold;
+	text-align: center;
+}
+.container2{
+	color: #e5e5e5;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.animation{
+	height: 50px;
+	overflow: hidden;
+	margin-left: 1rem;
+}
+
+.animation>div>div{
+	padding: 0.25rem 0.75rem;
+	height: 2.81rem;
+	margin-bottom: 2.81rem;
+	display: inline-block;
+}
+.animation div:first-child{
+	animation: text-animation 8s infinite;
+}
+
+.first div{
+	background-color: #6c00d9;
+	font-family: Arial, sans-serf;
+}
+.second div{
+	background-color: lightseagreen;
+	font-family: Arial, sans-serf;
+}
+.third div{
+	background-color: #a3d900;
+	font-family: Arial, sans-serf;
+}
+
+@keyframes text-animation{
+	0% {
+		margin-top: 0;
+	}
+	10% {
+		margin-top: 0;
+	}
+	20% {
+		margin-top: -5.62rem;
+	}
+	30% {
+		margin-top: -5.62rem;
+	}
+	40% {
+		margin-top: -11.24rem;
+	}
+	60% {
+		margin-top: -11.24rem;
+	}
+	70% {
+		margin-top: -5.62rem;
+	}
+}
+
+
+
+
+.box{
+	width: 30vw;
+	height: 30vh;
+	background-color: aliceblue;
+	margin: 100px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.notification{
+	
+	width: max-content;
+	padding: 20px 15px;
+	border-radius: 4px;
+	background-color: #141619;
+	color: #f6f5f9;
+	font-family: Arial, sans-serf;
+	transform: translateY(30px);
+	opacity: 0;
+	visibility: hidden;
+	animation: fade-in 5s linear forwards 3;
+	
+}
+.notification__progress{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	width: calc(100% - 10px);
+	height: 3px;
+	transform: scaleX(0);
+	background-image: linear-gradient(to right, #539bdb ,#3250bf );
+	transform-origin: left;
+	border-radius: inherit;
+	animation: load 4s 1s linear forwards 3;
+	
+}
+
+@keyframes fade-in{
+	5%{
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+	}
+	90%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes load{
+	to{
+		transform: scaleX(1);
+	}
+}
