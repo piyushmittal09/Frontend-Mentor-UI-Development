@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e5eaf5;
+}
+
+.login-card:hover{
+	box-shadow: 0px 0px 30px rgb(7, 127, 240);
+}
+
+.login-card{
+	display: flex;
+	justify-content: center;
+	margin: 69px auto auto auto;
+	padding: 11px 11px 11px 11px;
+	width: 300px;
+	height: 500px;
+	background-color: #000a14;
+	box-shadow: 0px 0px 15px #000a14;
+	border-radius: 20px;
+	
+	
+}
+h1{
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+p{
+	color: #ddd ;
+	cursor: pointer;
+	margin: 7px;
+}
+.txt{
+	position: relative;
+	left: 130px;
+	color: #eee;
+	text-decoration: none;
+}
+.txt2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.input1{
+				
+				margin: 0;
+				width: 90%;
+				height: 20px;
+				border: 1px solid white;
+				border-radius: 3px;
+				padding: 10px 10px 10px 10px;
+				font-size: 12px;
+				background: transparent;
+				color: #ddd;
+}
+.input2{
+				
+				margin: 0;
+				width: 90%;
+				height: 20px;
+				border: 1px solid white;
+				border-radius: 3px;
+				padding: 10px 10px 10px 10px;
+				font-size: 12px;
+				background: transparent;
+				color: #ddd;
+}
+.submit{
+				margin: 25px auto auto auto;
+				width: 100%;
+				height: 40px;
+				background-color: rgb(7, 127, 240);
+				border: none;
+				border-radius: 6px;
+				padding: 10px 10px 10px 10px;
+				font-size: 16px;
+				font-weight: bold;
+				cursor: pointer;
+				
+}
+.submit:hover{
+	box-shadow: 0px 0px 10px rgb(7, 127, 240);
+}
+form{
+	width: 90%;
+}
+form a{
+	color: white;
+}
+
+.fa-facebook{
+	background: rgb(7, 127, 240);
+	color: darkblue;
+	width: 250px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px auto;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.fa-google{
+	background: rgb(7, 127, 240);
+	color: darkblue;
+	width: 250px;
+	padding: 10px 10px 10px 10px;
+	margin: 5px auto;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+
+
+@media only screen and (max-width:600px){
+	
+	body{
+		background-color: black;
+	}
+	.login-card{
+		height: 500px;
+		background-color: black;
+		
+	}
+	.login-card:hover{
+		box-shadow: 0px 0px 30px rgb(7, 127, 240);
+	}
+	
+	.submit{
+		background-color: rgb(7, 127, 240);
+		color: white;
+		font-size: 20px;
+		font-weight: 400;
+	}
+	.submit:hover{
+		box-shadow: 0px 0px 10px rgb(7, 127, 240);
+	}
+	.input1{
+		width: 91%;
+	}
+	.input2{
+		width: 91%;
+	}
+	.fa-facebook{
+		width: 240px;
+	}
+	.fa-google{
+		width: 240px;
+	}
+}
