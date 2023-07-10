@@ -1,0 +1,216 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: verdana, sans-serif;
+}
+
+.logo{
+	width: auto;
+	height: auto;
+}
+
+
+.login-card{
+	
+	margin: auto;
+	padding: 30px;
+	width: 350px;
+	height: 500px;
+	background: white;
+}
+
+.sec1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.marketing{
+	width: 50%;
+	height: 100vh;
+	background-color: whitesmoke;
+}
+
+h1{
+	color: #555;
+	cursor: pointer;
+	text-align: center;
+}
+
+.txt{
+	position: relative;
+	color: black;
+	margin-top: 40px;
+}
+.txt2{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.input1{
+				
+				margin: 10px;
+				width: 90%;
+				height: 20px;
+				border: 1px solid white;
+				border-radius: 3px;
+				padding: 10px 10px 10px 10px;
+				font-size: 12px;
+				background: whitesmoke;
+				color: #555;
+}
+.input2{
+				
+				margin: 10px;
+				width: 90%;
+				height: 20px;
+				border: 1px solid white;
+				border-radius: 3px;
+				padding: 10px 10px 10px 10px;
+				font-size: 12px;
+				background: whitesmoke;
+				color: #555;
+}
+.submit{
+				margin: 10px;
+				width: 96%;
+				height: 40px;
+				background-color: blueviolet;
+				border: none;
+				border-radius: 6px;
+				padding: 10px 10px 10px 10px;
+				font-size: 16px;
+				font-weight: bold;
+				cursor: pointer;
+				color: whitesmoke;
+				
+}
+
+.submit:hover{
+	box-shadow: 0px 0px 10px #4d0066;
+}
+form{
+	width: 100%;
+}
+form a{
+	color: #555;
+	text-decoration: none;
+}
+
+.fa-facebook{
+	background: blueviolet;
+	color: white;
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	border-radius: 50%;
+	text-decoration: none;
+	text-align: center;
+}
+
+.fa-google{
+	background: blueviolet;
+	color: white;
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	margin-left: 135px;
+	margin-right: 5px;
+	border-radius: 50%;
+	text-decoration: none;
+	text-align: center;
+}
+
+.fa-facebook:hover{
+	box-shadow: 0px 0px 10px #4d0066;
+}
+.fa-google:hover{
+	box-shadow: 0px 0px 10px #4d0066;
+}
+
+<style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+</style>
+
+.marketing{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.heading{
+	text-align: center;
+	margin-top: 50px;
+	line-height: .1;
+}
+
+.row1{
+	display: flex;
+	margin: 50px;
+	margin-top: 150px;
+}
+
+.row2{
+	display: flex;
+	margin: 50px;
+	margin-top: 50px;
+}
+
+span{
+	position: relative;
+	bottom: 25px;
+	left: 50px;
+	color: blueviolet;
+	margin-left: 30px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+p{
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+	
+	body{
+		width: fit-content;
+	}
+	
+	
+	.login-card{
+		height: 100vh;
+	}
+	
+	h3{
+		font-size: large;
+	}
+	
+	
+	.submit{
+		font-size: 20px;
+		font-weight: 400;
+	}
+	
+	.sec1{
+		flex-direction: column;
+	}
+	
+	.marketing{
+		display: block;
+		width: fit-content;
+	}
+	
+}
