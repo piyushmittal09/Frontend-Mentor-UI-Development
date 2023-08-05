@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Conditional Statements</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+</head>
+
+<body>
+
+</body>
+<script>
+
+	// When condition in a conditional statement gets true it performs specific tasks that we wrote like a function unlike function it does not need recalling
+	// if else & else if
+	
+	
+	
+	let sameString = 20;
+	
+	let anotherString = 20;
+	
+	
+	
+	if (sameString === anotherString){
+	
+		console.log("this works!!");
+		
+	} else{
+	
+		console.log("this does not work");
+	}
+	
+	if ("sameString" === "anotherString"){
+	
+		console.log("strings does match");
+		
+	} else {
+	
+		console.log("strings does not match");
+	}
+	
+	if (20 === 19){
+		
+		console.log("this is wrong");
+		
+	}else if (20 === 20) { // else if works when else does not work it is used to add more conditions
+	
+		console.log("this is crazy");
+		
+	} else {   //Do not add condition in else
+	
+		console.log("do you understand now");
+	}
+	
+	// Switch Case break
+	
+	let randomColor = "red";
+	
+	switch(randomColor){
+	
+		case "blue" :
+				console.log("color is blue");
+		
+		case "red" : 
+				console.log("color is red!!");
+	
+	}
+	
+	let noColor = "noColor"
+	
+	
+	switch (noColor){
+	
+		case "green" : 
+			console.log("color is green");
+		
+		case "blue" :
+				console.log("color is blue");
+		
+		case "red" : 
+				console.log("color is red!!");
+				
+		default : 
+			console.log("no color found");  // if no cases matches result default condition work
+	
+	}
+	
+	
+
+</script>
+</html>
