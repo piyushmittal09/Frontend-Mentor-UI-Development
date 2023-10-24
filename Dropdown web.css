@@ -5,6 +5,7 @@
 	
 }
 
+
 body{
 	background-color: var(--almost-white);
 }
@@ -25,14 +26,13 @@ body{
 	background-color: var(--almost-white);
 }
 
-header{
-	
-}
+
 nav{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin-bottom: 20px;
 	padding-top: 20px;
+	position: relative;
 }
 nav a{
 	font-family: 'Epilogue', sans-serif;
@@ -41,6 +41,7 @@ nav a{
 	font-weight: 500;
 	text-decoration: none;
 	color: var(--medium-gray);
+	position: relative;
 }
 nav a:hover{
 	font-weight: 700;
@@ -49,30 +50,29 @@ nav a:hover{
 }
 
 
-
+.nav-links{
+	position: relative;
+}
 
 .logo{
 	margin-left: 30px;
 	cursor: pointer;
 }
+
+
+.left-logo img{
+	width: 300px;
+}
+.left-logo{
+	width: 400px;
+}
+
 .links-left{
-	margin-right: 600px;
 	display: flex;
 }
 .links-right{
 	margin-right: 0;
 	margin-left: 0;
-}
-nav a.adj{
-	position: absolute;
-	left: 170px;
-}
-nav a.adj-2{
-	position: absolute;
-	left: 260px;
-}
-nav a.adj-3{
-	margin: 0 20px 0 170px;
 }
 
 nav a.sec-last{
@@ -93,6 +93,16 @@ nav a.last:hover{
 	float: left;
 	margin: 40px 0px 0px 40px;
 }
+
+.main-content-2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	float: left;
+	margin: 40px 0px 0px 40px;
+}
+
 .main-content h1{
 	font-size: 66px;
 	font-weight: 700;
@@ -141,26 +151,24 @@ nav a.last:hover{
 .down3{
 	margin-right: 40px;
 }
-.down4{
-	
-}
+
 .sub-menu-wrap{
 	
 	background: #eee;
-	width: 135px;
+	width: 140px;
 	border-radius: 5px;
-	position: relative;
-	top: 30px;
+	position: absolute;
+	top: 44px;
 }
 .sub-menu-wrap2{
 	
 	background: #eee;
-	width: 90px;
-	height: 90px;
+	width: 110px;
+	height: 170px;
 	border-radius: 5px;
-	position: relative;
-	top: 30px;
-	left: 70px;
+	position: absolute;
+	top: 44px;
+	left: 670px;
 }
 .sub-menu-link{
 	display: flex;
@@ -190,6 +198,178 @@ nav a.last:hover{
 	content: url("icon-arrow-up.svg");
 }
 
-@media only screen and (max-width:600px){
+.text-container{
+	width: 650px;
+	height: 300px;
+	padding: 10px 20px;
 	
+}
+
+.text-container p{
+	margin-top: 20px;
+	line-height: 25px;
+}
+
+.text-container h1{
+	font-size: 40px;
+}
+
+.panel{
+	
+	width: 100%;
+	height: 400px;
+	padding: 10px 20px;
+	background-image: url("business-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(0.7);
+}
+
+.panel h1{
+	color: white;
+	margin: 20px 0;
+	font-size: 40px;
+}
+
+.box-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 80%;
+	height: 250px;
+	padding: 0;
+}
+
+.box{
+	margin: 10px 20px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+}
+
+.box h3{
+	font-size: 25px;
+	color: white;
+}
+
+.box-icon{
+	width: 190px;
+	border-radius: 50%;
+	padding: 15px;
+	background: #555555;
+    mix-blend-mode: hard-light;
+	border: 20px solid dimgray;
+}
+
+.box-icon:hover{
+	box-shadow: 0px 0px 20px black;
+}
+
+.box-icon img{
+	width: 100px;
+}
+
+.section-3-img{
+	width: 500px;
+	margin-left: 50px;
+}
+
+.exp-container{
+	width: 100%;
+	height: 300px;
+}
+
+.exp-mini{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: auto;
+	width: 95%;
+	height: 350px;
+	padding: 0;
+	background-color: black;
+	position: relative;
+}
+
+.exp-mini img{
+	width: 95%;
+	height: 350px;
+	position: absolute;
+	opacity: 0.3;
+	object-fit: cover;
+}
+
+
+.exp h1{
+	color: white;
+	font-size: 30px;
+}
+
+.exp h3{
+	color: white;
+	font-size: 30px;
+}
+
+
+
+.row-container{
+	width: 100%;
+	height: 300px;
+	
+
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.feature-card{
+	width: 500px;
+	height: 250px;
+	margin: 20px;
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	box-shadow: inset 0px 0px 10px black;
+	border: 3px solid black;
+}
+
+.feature-card:hover{
+	box-shadow: 0px 0px 10px black;
+}
+
+
+.feature-card img{
+	width: 60px;
+}
+
+.container-4{
+	max-width: 1440px;
+	height: 90vh;
+	margin: 200px 0 0 0;
+	padding: 0;
+	font-family: 'Epilogue', sans-serif;
+	background-color: var(--almost-white);
+}
+
+.feature-card h3{
+	margin-top: 10px;
+}
+
+.feature-card p{
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.footer{
+	background-color: #333;
+	color: whitesmoke;
+	padding: 25px 50px;
+	font-family: 'Epilogue', sans-serif;
 }

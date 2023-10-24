@@ -7,13 +7,15 @@ const dropIcon = document.querySelector(".icon");
 const dropIcon2 = document.querySelector(".icon2");
 
 	dropDown.addEventListener("click", () => {
-		subMenuWrap.classList.remove("hide");
+		subMenuWrap.classList.toggle("hide");
 		subMenuWrap2.classList.add("hide");
-		dropIcon.classList.add("drop-icon");
+		dropIcon.classList.toggle("drop-icon");
 	});
+
+
 	dropDown2.addEventListener("click", () => {
-		subMenuWrap2.classList.remove("hide");
+		subMenuWrap2.classList.toggle("hide");
 		subMenuWrap.classList.add("hide");
-		dropIcon2.classList.add("drop-icon2");
+		dropIcon2.classList.toggle("drop-icon2");
 	});
 	
