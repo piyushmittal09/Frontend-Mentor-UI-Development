@@ -621,6 +621,10 @@ header{
     display: none;
 }
 
+.checkbtn{
+    display: none;
+}
+
 @media (max-width: 767px){
 
     .checkbtn{
