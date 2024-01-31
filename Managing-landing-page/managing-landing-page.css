@@ -389,16 +389,6 @@ section{
   padding: 10px 20px;
   text-align: center;
 }
-@media screen and (max-width: 900px) {
-  .wrapper .carousel {
-    grid-auto-columns: calc((100% / 2) - 9px);
-  }
-}
-@media screen and (max-width: 600px) {
-  .wrapper .carousel {
-    grid-auto-columns: 100%;
-  }
-}
 
 #four{
   width: 100%;
@@ -721,6 +711,10 @@ footer{
 
   #third{
     height: 500px;
+  }
+
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
   }
 
   #first{
