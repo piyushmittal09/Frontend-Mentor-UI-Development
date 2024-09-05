@@ -1,1 +1,2 @@
-a code repo for basic HTML CSS practices..
+HTML CSS 
+a code repo for Basic HTML / CSS practices.
